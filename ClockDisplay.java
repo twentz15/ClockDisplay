@@ -82,54 +82,7 @@ public class ClockDisplay
         {
             displayString = "01" + ":" + minutes.getDisplayValue();
         }
-            else if(hours.getValue() == 2)
-            {
-                displayString = "02" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 3)
-            {
-                displayString = "03" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 4)
-            {
-                displayString = "04" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 5)
-            {
-                displayString = "05" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 6)
-            {
-                displayString = "06" + ":" + minutes.getDisplayValue();
-            }   
-            else if(hours.getValue() == 7)
-            {
-                displayString = "07" + ":" + minutes.getDisplayValue();
-            }  
-            else if(hours.getValue() == 8)
-            {
-                displayString = "08" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 9)
-            {
-                displayString = "09" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 10)
-            {
-                displayString = "10" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 11)
-            {
-                displayString = "11" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 12)
-            {
-                displayString = "12" + ":" + minutes.getDisplayValue();
-            }
-            else if(hours.getValue() == 13)
-            {
-                displayString = "02" + ":" + minutes.getDisplayValue();
-            }
+            
             if(hours.getValue() == 13)
             {
                 displayString = "01" + ":" + minutes.getDisplayValue();
